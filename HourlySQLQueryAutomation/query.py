@@ -7,3 +7,5 @@ query_2 = """SELECT * FROM dbo.Employee where Age = 21"""
 
 
 query_3 = """SELECT * FROM dbo.Employee where Age = 21"""
+
+query_3 = """SELECT * FROM dbo.Employee"""
