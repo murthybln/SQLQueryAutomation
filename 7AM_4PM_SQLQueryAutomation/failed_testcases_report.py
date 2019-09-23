@@ -41,4 +41,4 @@ def send_email(html_data, subject):
         server.quit()
         print ("Successfully sent email")
     except SMTPException:
-        print ("Error: unable to send email")
+        print ("Error: unable to send emails")
