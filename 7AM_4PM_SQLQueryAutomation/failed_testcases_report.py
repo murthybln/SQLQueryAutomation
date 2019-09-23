@@ -26,7 +26,7 @@ def send_email(html_data, subject):
     message = MIMEMultipart("alternative", None, [MIMEText(html_data,'html')])
 
     sender= 'murthybandaru57@gmail.com'
-    receiver= 'murthybandaru57@gmail.com,narasimha.bandaru@cesltd.com'
+    receiver= 'murthybandaru57@gmail.com'
     server = 'smtp.gmail.com:587'
     password = 'mostwantedcutelad'
     message['Subject']= subject
