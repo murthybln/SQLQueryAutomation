@@ -4,3 +4,7 @@ db_conn1 = "DRIVER={SQL SERVER};server=192.168.18.36;database=Maverick;uid=naras
 query_1 = """SELECT * FROM dbo.Employee"""
 
 query_2 = """SELECT * FROM dbo.Employee where Age = 21"""
+
+query_4 = """SELECT * FROM dbo.Employee"""
+
+
